@@ -13,5 +13,3 @@ provider "prismacloud" {
   username = var.pcc_username
   password = var.pcc_userpass
 }
-
-data "prismacloud_cloud_accounts" "all_cloud_accounts" {}   
