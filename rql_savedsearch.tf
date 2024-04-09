@@ -1,4 +1,4 @@
-resource "prismacloud_saved_search" "test-rql-awsenvkey" {
+resource "prismacloud_saved_search" "rql_awsenvkey" {
   name        = "AWS EC2 Instances with Env key"
   description = "No AWS instance should have the env key!"
   search_id   = prismacloud_rql_search.config_aws_envkey.search_id
